@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fikayomi Akinrimisi Bukunola is a backend developer building reliable web applications and REST APIs with Python and Django.">
 
     <title>Fkay | Backend Developer</title>
 
@@ -16,14 +17,14 @@
         <nav>
             <a href="#" class="logo">FKAY</a>
 
-            <ul class="nav-links">
+            <ul class="nav-links" id="primary-navigation">
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <button class="menu-toggle" aria-label="Open navigation">
+            <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">
     ☰
             </button>
         </nav>
@@ -61,7 +62,8 @@
 
                 <a href="https://github.com/Fkay18"
                    class="btn secondary-btn"
-                   target="_blank">
+                   target="_blank"
+                   rel="noopener noreferrer">
                     GitHub
                 </a>
 
@@ -82,11 +84,9 @@
         <!-- About -->
         <section id="about">
 
-            <section id="about">
+            <h2>About Me</h2>
 
-                <h2>About Me</h2>
-
-                    <div class="about-content">
+            <div class="about-content">
 
                         <p>
                             I'm Fikayomi Akinrimisi Bukunola, a Medical Laboratory Scientist and backend developer
@@ -99,17 +99,13 @@
                             systems.
                         </p>
 
-                        <p>
-                            <p>
-                                I'm particularly interested in backend development, APIs, databases,
-                                and technology that solves real-world problems, especially at the
-                                intersection of healthcare and technology.
-                            </p>
-                        </p>
+                <p>
+                    I'm particularly interested in backend development, APIs, databases,
+                    and technology that solves real-world problems, especially at the
+                    intersection of healthcare and technology.
+                </p>
 
-                    </div>
-
-            </section>
+            </div>
 
         </section>
 
@@ -133,7 +129,7 @@
                     
                     <h3>Database</h3>
                     <p>
-                        MySQL · SQL · Django ORM . DBSqlite
+                        MySQL · SQL · Django ORM · SQLite
                     </p>
                 </div>
 
@@ -141,7 +137,7 @@
                     
                     <h3>Tools & Workflows</h3>
                     <p>
-                        Git · GitHub · Postman · VS Code . Bootstrap
+                        Git · GitHub · Postman · VS Code · Bootstrap
                     </p>
                 </div>
 
@@ -154,7 +150,7 @@
 
             <h2>Projects</h2>
 
-            <div class="project-card">
+            <div class="projects-container">
 
                 <div class="project-card">
 
@@ -179,7 +175,8 @@
 
                     <div class="project-links">
                         <a href="https://github.com/Fkay18/InstaLab"
-                             target="_blank">
+                             target="_blank"
+                             rel="noopener noreferrer">
                             GitHub →
                         </a>
 
@@ -194,7 +191,7 @@
                 <div class="project-card">
 
                         <div class="project-header">
-                            <h3>FkayBlog</h3>
+                            <h3>CodePulse</h3>
                         </div>
 
                         <p>
@@ -208,7 +205,7 @@
                         </p>
 
                         <p class="project-status">
-                            Currently Developing
+                            Currently developing · Live demo coming soon
                         </p>
 
                         <p class="tech-stack">
@@ -216,8 +213,9 @@
                         </p>
 
                         <div class="project-links">
-                            <a href="https://github.com/Fkay18"
-                            target="_blank">
+                            <a href="https://github.com/Fkay18/CodePulse"
+                            target="_blank"
+                            rel="noopener noreferrer">
                                 GitHub →
                             </a>
 
@@ -230,6 +228,7 @@
 
                 </div>
             </div>
+        </section>
 
         <!-- Experience -->
         <!-- Experience -->
@@ -313,12 +312,7 @@
         <!-- Contact -->
         <section id="contact">
 
-            <section id="contact">
-
-                <!-- Contact -->
-                <section id="contact">
-
-                    <div class="contact-content">
+            <div class="contact-content">
 
                         <p class="section-label">CONTACT</p>
 
@@ -327,6 +321,10 @@
                         <p>
                             Interested in working together, discussing a project,
                             or connecting about backend development?
+                        </p>
+
+                        <p class="availability">
+                            Open to backend development opportunities and freelance projects.
                         </p>
 
                         <div class="contact-details">
@@ -347,7 +345,7 @@
 
                             <p>
                                 <strong>LinkedIn:</strong>
-                                <a href="https://www.linkedin.com/in/fikayomi-akinrimisi-955057209" target="_blank">
+                                    <a href="https://www.linkedin.com/in/fikayomi-akinrimisi-955057209" target="_blank" rel="noopener noreferrer">
                                     Fikayomi Akinrimisi 
                                 </a>
                             </p>
@@ -355,14 +353,12 @@
 
                         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=fkay.dev@gmail.com"
                             class="btn primary-btn"
-                            target="_blank">
+                            target="_blank"
+                            rel="noopener noreferrer">
                                 Get In Touch
                         </a>
 
-                    </div>
-
-                </section>
-            </section>
+            </div>
 
         </section>
 
@@ -371,7 +367,6 @@
 
     <!-- Footer -->
     <footer>
-        <footer>
 
             <div class="footer-content">
 
@@ -382,11 +377,11 @@
                 </p>
 
                 <div class="footer-links">
-                    <a href="https://github.com/Fkay18" target="_blank">
+                    <a href="https://github.com/Fkay18" target="_blank" rel="noopener noreferrer">
                         GitHub
                     </a>
 
-                    <a href="https://www.linkedin.com/in/fikayomi-akinrimisi-955057209" target="_blank">
+                    <a href="https://www.linkedin.com/in/fikayomi-akinrimisi-955057209" target="_blank" rel="noopener noreferrer">
                         LinkedIn
                     </a>
 
@@ -401,7 +396,6 @@
 
             </div>
 
-</footer>
     </footer>
 
 
